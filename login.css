@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Poppins", serif;
+   font-weight: 600;
+   font-style: normal;
+}
+body{
+   background-image: url(./image/valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg);
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-evenly;
+   background-color: rgb(211, 203, 203);
+   gap: 10%;
+   padding: 10px;
+}
+
+.navbar h1 {
+   font-size: 25px;
+   margin-right: 50px;
+   padding: 10px;
+   cursor: pointer;
+}
+
+.navbar h1 span {
+   color: rgb(147, 122, 7);
+}
+
+ul {
+   display: flex;
+   gap: 50px;
+   margin-right: 20px;
+   list-style-type: none;
+   padding: 10px;
+}
+
+ul .first a {
+   color: red;
+}
+
+li {
+   font-size: 18px;
+}
+
+a {
+   color: black;
+   text-decoration: none;
+}
+
+a:hover {
+   color: red;
+   text-decoration: underline;
+}
+
+.container {
+   width: 100%;
+   height: 90vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+form {
+   width: 320px;
+   padding: 20px;
+   border-radius: 3px;
+   background-color: rgba(192, 192, 192, 0.415);
+   opacity: 1.1;
+   font-size: 12px;
+}
+
+form h1 {
+   text-align: center;
+}
+
+form button {
+   padding: 10px;
+   margin-top: 10px;
+   width: 100%;
+   border: 0;
+   border-radius: 3px;
+   background-color: black;
+   color: white;
+   cursor: pointer;
+}
+
+.box {
+   display: flex;
+   flex-direction: column;
+}
+
+.box label {
+   font-size: 20px;
+}
+
+.box input {
+   display: block;
+   padding: 10px;
+   border-radius: 3px;
+   width: 100%;
+   font-size: 12px;
+   border: 0;
+}
+
+.box .error {
+   color: red;
+   font-size: 10px;
+   height: 15px;
+}
+
+.box input:focus {
+   outline: 0;
+}
+
+.box.success input {
+   border: 1px solid green;
+}
+
+.box.error input {
+   border: 1px solid red;
+}
+
+.link {
+   text-align: center;
+   padding: 15px;
+   font-size: 15px;
+}
+.link span{
+   font-size: 18px;
+   color: rgb(250, 247, 247);
+   border-radius: 5px;
+   background-color: rgb(0, 0, 0);
+   padding: 5px;
+   margin-left: 10px;
+}
